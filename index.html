@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f7f1e8">
+    <meta name="description" content="Café quentinho, quitutes e energia para suas ideias no Hackathon Vale Tech 2026.">
+    <title>Café do Código | Hackathon Vale Tech 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="topo">
+        <a class="marca" href="#inicio" aria-label="Café do Código — início">
+            <span class="marca-icone" aria-hidden="true">☕</span>
+            <span>Café <strong>do Código</strong></span>
+        </a>
+        <nav class="navegacao" aria-label="Navegação principal">
+            <a href="#cardapio">Cardápio</a>
+            <a href="#sobre">A cafeteria</a>
+            <a href="#visite">Onde estamos</a>
+        </nav>
+        <div class="color-control">
+            <label for="color-scheme">Tema</label>
+            <select id="color-scheme" name="color-scheme">
+                <option value="default">Original</option>
+                <option value="dark">Escuro</option>
+                <option value="light">Claro</option>
+            </select>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <section class="hero" id="inicio" aria-labelledby="titulo">
+            <div class="hero-texto">
+                <p class="etiqueta">ABERTO DURANTE O HACKATHON</p>
+                <h1 id="titulo">Boas ideias começam com <span>café fresquinho.</span></h1>
+                <p class="hero-descricao">Uma pausa gostosa para recarregar a energia, trocar ideias e voltar ao código com tudo.</p>
+                <a class="botao" href="#cardapio">Descubra o cardápio <span aria-hidden="true">↓</span></a>
+                <p class="hero-nota"><span aria-hidden="true">✦</span> Feito na hora, servido com carinho.</p>
+            </div>
+            <div class="hero-imagem">
+                <img src="cafeteria.svg" alt="Ilustração de uma xícara de café com vapor em formato de coração" width="600" height="520">
+                <span class="selo">CAFÉ<br>+ CÓDIGO<br><span>♥</span></span>
+            </div>
+        </section>
+
+        <section class="faixa-info" aria-label="Informações rápidas">
+            <p><span aria-hidden="true">☕</span> Café especial</p>
+            <p><span aria-hidden="true">⌁</span> Feito na hora</p>
+            <p><span aria-hidden="true">⌖</span> Dentro do Hackathon</p>
+        </section>
+
+        <section class="secao-cardapio" id="cardapio" aria-labelledby="titulo-cardapio">
+            <div class="cabecalho-secao">
+                <p class="etiqueta">PAUSA PARA RECARREGAR</p>
+                <h2 id="titulo-cardapio">Um carinho em cada xícara.</h2>
+                <p>Seu próximo favorito está no cardápio.</p>
+            </div>
+            <div class="grade-cardapio">
+                <article class="item-cardapio">
+                    <span class="item-icone" aria-hidden="true">☕</span>
+                    <p class="categoria">CLÁSSICO DA CASA</p>
+                    <h3>Espresso</h3>
+                    <p class="descricao-item">Intenso, encorpado e extraído na hora. Aquele empurrãozinho entre um commit e outro.</p>
+                    <p class="preco">R$ 6,00</p>
+                </article>
+                <article class="item-cardapio destaque">
+                    <span class="item-icone" aria-hidden="true">♡</span>
+                    <p class="categoria">QUERIDINHO ❤️</p>
+                    <h3>Latte cremoso</h3>
+                    <p class="descricao-item">Espresso com leite vaporizado e uma espuma que merece até foto antes do primeiro gole.</p>
+                    <p class="preco">R$ 10,00</p>
+                </article>
+                <article class="item-cardapio">
+                    <span class="item-icone" aria-hidden="true">❋</span>
+                    <p class="categoria">PAUSA DOCE</p>
+                    <h3>Cookie da casa</h3>
+                    <p class="descricao-item">Douradinho por fora, macio por dentro e cheio de gotas de chocolate.</p>
+                    <p class="preco">R$ 8,00</p>
+                </article>
+                <article class="item-cardapio">
+                    <span class="item-icone" aria-hidden="true">☼</span>
+                    <p class="categoria">GELADO & REFRESCANTE</p>
+                    <h3>Cold brew</h3>
+                    <p class="descricao-item">Café extraído a frio por 12 horas, suave e perfeito para as maratonas de código.</p>
+                    <p class="preco">R$ 12,00</p>
+                </article>
+            </div>
+            <p class="nota-cardapio">Consulte a equipe sobre opções sem lactose e disponibilidade dos produtos.</p>
+        </section>
+
+        <section class="sobre" id="sobre" aria-labelledby="titulo-sobre">
+            <div class="sobre-ilustracao" aria-hidden="true">
+                <span>código 💻</span>
+                <span class="sobre-xicara">☕</span>
+                <span>+</span>
+                <span>boas ideias💡</span>
+            </div>
+            <div class="sobre-texto">
+                <p class="etiqueta">SEU PONTO DE ENCONTRO</p>
+                <h2 id="titulo-sobre">Uma pausa também faz parte da jornada.</h2>
+                <p>O Café do Código chegou ao Hackathon Vale Tech para deixar a maratona mais leve. Passe para tomar um café, respirar um pouquinho e compartilhar aquela ideia que pode mudar tudo.</p>
+                <a class="link-texto" href="#visite">Venha dar uma pausa <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+
+        <section class="visite" id="visite" aria-labelledby="titulo-visite">
+            <p class="etiqueta">A GENTE SE ENCONTRA POR LÁ</p>
+            <h2 id="titulo-visite">Seu café está te esperando.</h2>
+            <div class="detalhes-visita">
+                <p><span aria-hidden="true">⌖</span> Centro de Inovação Vale Tech<br><span class="detalhe-menor">São José dos Campos — SP</span></p>
+                <p><span aria-hidden="true">◷</span> Durante todo o evento<br><span class="detalhe-menor">20 a 22 de novembro de 2026</span></p>
+            </div>
+            <p class="mensagem-visita">É só seguir o cheirinho de café ☕</p>
+        </section>
+    </main>
+
+    <footer>
+        <a class="marca marca-rodape" href="#inicio">
+            <span class="marca-icone" aria-hidden="true">☕</span>
+            <span>Café <strong>do Código</strong></span>
+        </a>
+        <p>Um café entre uma ideia e outra, no Hackathon Vale Tech 2026.</p>
+        <a class="voltar-topo" href="#inicio">Voltar ao topo ↑</a>
+        <p class="copyright">&copy; 2026 Café do Código</p>
+    </footer>
+
+    <script>
+        const seletorCores = document.querySelector("#color-scheme");
+        seletorCores.addEventListener("change", () => {
+            document.body.dataset.colorScheme = seletorCores.value;
+        });
+    </script>
+</body>
+</html>
